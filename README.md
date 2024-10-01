@@ -29,8 +29,19 @@
 
 
 ------>
-1)Create Command Is Used To create Any Table
+1)Create Database is used to create new database
+  Syntax: Create database databasename
+  
+2)Create Command Is Used To create Any Table
   Syntax:Create table stude(Valus)
   
-2)Insert is used to insert the values in the table
+3)Insert is used to insert the data into the table
   Syntax:insert into stude(values)
+  
+4)To Create table
+ create table tabl_name(
+ c1_name1 datatype(size),
+ c2_name2 datatype(Size),
+  .
+  .
+ c3_name3 datatype(Size).
