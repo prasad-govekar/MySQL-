@@ -19,4 +19,18 @@
  2.Revoke
  
 4)TCL:(Transaction Control Language)
- 1.
+ 1.Commit 
+ 2.Rollback
+ 3.Savepoint
+
+5)DQL(Data Query Language)
+ 1.Select
+
+
+
+------>
+1)Create Command Is Used To create Any Table
+  Syntax:Create table stude(Valus)
+  
+2)Insert is used to insert the values in the table
+  Syntax:insert into stude(values)
