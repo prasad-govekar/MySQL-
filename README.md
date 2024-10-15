@@ -28,7 +28,8 @@
 
 
 
------->
+----------------------->
+
 1)Create Database is used to create new database
   Syntax: Create database databasename
   
@@ -45,3 +46,29 @@
   .
   .
  c3_name3 datatype(Size).
+
+---------------------->
+
+#Data Types in SQL
+
+1)NUMERIC:
+  a.Int-integers
+  b.Float-Decimal upto 9 digits
+  c.Double-Decimal upto 15 digits
+  d.Decimal-decimal fixied
+  e.BigInt-Upto 12 digits.
+  
+2)STRING:
+  a.Char-fixed 256
+  b.Varchar-varable length
+  c.Text-long text
+  
+3)DATE AND TIME:
+  a.Date: yyyy-mm-dd
+  b.Datetime: yyyy-mm-dd hh-mm
+  c.Time: hh-mm
+  d.Timestamp
+  e.Year:yyyy
+  
+4)BOOLEAN TRUE/FALSE:
+  
