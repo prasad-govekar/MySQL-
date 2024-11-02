@@ -69,6 +69,65 @@
   c.Time: hh-mm
   d.Timestamp
   e.Year:yyyy
-  
-4)BOOLEAN TRUE/FALSE:
-  
+
+/// Database:
+    -Database is collection of data in a format that can be easily accesed (Digital) 
+    -A software application used to manage our DB is called Database(Database Management System).
+
+*Two Types of databases:
+    1)Relational Database:Data stored in the form of table is called as the relational database.
+               -MySQL,SQLSever,ORACLE,PostgreSQL
+    2)Non-Relational Database(NoSQL): Data not stored in the form of the table
+               -mongoDB
+               
+*What is SQL?
+-Structured Query Language
+ SQL is a programming languuage used to interact with relational database
+ It is used to perform CRUD opertions:
+ Create 
+ Read 
+ Update
+ Delete
+
+*To create database-
+        (CREATE DATABASE db_name;)
+    Creating our First Table-
+     USE db_name;
+     CREATE TABLE table_name(
+       column1_name1 datatype constraint,
+       column2_name2 datatype constraint,
+       column3_name3 datatype constraint
+       );
+
+*DATATYPES:
+     -Most commonly used datatypes:
+        1)CHAR
+        2)VARCHAR
+        3)BLOB
+        4)IT
+        5)TINYINT
+        6)BIGINT
+        7)BIT
+        8)FLOAT
+        9)DOUBLE
+        10)BOOLEAN
+        11)DATE
+        12)YEAR
+     -Types Of Datatypes
+        1)signed- where we know that both the values can come (positive or negative).
+        2)unsigned- Where we know only one type of value can come like (either positive or negative).
+
+*Types of SQL Commands
+      1)DDL(data definition language): create, alter, rename, truncate and drop.
+      2)DQL(data query language);select.
+      3)DML(data manipulation laguage); insert,update and delete.
+      4)DCL(data control language);grant and revoke permissions to users.
+      5)TCL(transaction control language); start transaction, commit, rollback.
+
+*Database related queries:
+      CREATE DATABASE db_name;
+      CREATE DATABASE IF NOT EXISTS db_name;
+      SAME WITH DROP COMMAND;
+
+      SHOW DATABASE;
+      SHOE TABLES;   (*This is called asterics)
