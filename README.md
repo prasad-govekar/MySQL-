@@ -133,7 +133,27 @@
       SHOE TABLES;   (*This is called asterics)
 
 *KEYS
-1)Primary Keys:
-      It is a column (or set of columns) in a table that uniquely identifies each row.(a unique id). There is only 1 PK & it should be NOT NULL.
+1)Primary Keys:(Unique, Not Null)
+      -It is a column (or set of columns) in a table that uniquely identifies each row.(a unique id). 
+      -There is only 1 PK & it should be NOT NULL.
 2)Foreign Keys:
-      A foregin key is a column (or set of columns) in a table that refers to the primary key 
+      -A foregin key is a column (or set of columns) in a table that refers to the primary key.
+      -There can multiple FKS.
+      -FKS can be null and have duplicate values.
+
+*Constraints:
+      -SQL constraint are used to specify rules for data in a table.
+      -NOT NULL (Columns cannot have a null value || synt: col1 int NOT NULL)
+      -UNIQUE (all values in column are different || synt: col2 int UNIQUE)
+      -PRIMARY KEY (makes a column unique and not null but used only for one)
+      ---->Eg. id int PRIMARY KEY
+               CREATE TABLE temp(
+               id int NOT NULL,
+               PRIMARY KEY(id));
+
+      -FOREGIN KEY (prevets actions that would destroy links between tables
+      ------>Eg. CREATE TABLE temp
+                 (cust_id int,
+                 FOREGIN KEY (cust_id) references customer(id));
+            
+      
