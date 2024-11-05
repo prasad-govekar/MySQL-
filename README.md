@@ -155,5 +155,8 @@
       ------>Eg. CREATE TABLE temp
                  (cust_id int,
                  FOREGIN KEY (cust_id) references customer(id));
+
+      -DEFAULT (sets the dfault value in a column)
+      ------->salary INT DEFAULT 25000
             
       
