@@ -131,3 +131,9 @@
 
       SHOW DATABASE;
       SHOE TABLES;   (*This is called asterics)
+
+*KEYS
+1)Primary Keys:
+      It is a column (or set of columns) in a table that uniquely identifies each row.(a unique id). There is only 1 PK & it should be NOT NULL.
+2)Foreign Keys:
+      A foregin key is a column (or set of columns) in a table that refers to the primary key 
